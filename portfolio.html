@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AppStello Labs Portfolio – Explore our web development, mobile app, and design projects. Real results for real businesses." />
+  <title>Portfolio – AppStello Labs</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%231a6dff'/><text x='50%' y='50%' dominant-baseline='central' text-anchor='middle' font-size='18' font-weight='800' fill='white'>A</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <div id="page-loader">
+    <div class="loader-inner">
+      <div class="loader-logo">App<span>Stello</span> Labs</div>
+      <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    </div>
+  </div>
+
+  <button id="scroll-top" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></button>
+
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">App<span>Stello</span> Labs</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html" class="active">Portfolio</a>
+        <a href="contact.html">Contact</a>
+        <a href="contact.html" class="nav-cta">Get Started</a>
+      </div>
+      <button class="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <div class="mobile-menu">
+    <button class="mobile-close"><i class="fas fa-times"></i></button>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="btn btn-primary" style="margin-top:8px;">Get Started</a>
+  </div>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="section-badge" style="color:var(--accent);background:rgba(0,212,255,0.1);border-color:rgba(0,212,255,0.2);">Our Work</div>
+      <h1 class="page-hero-title">Our <span>Portfolio</span></h1>
+      <p class="page-hero-subtitle">200+ projects delivered. Here's a selection of our finest work across web, app, and design.</p>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <i class="fas fa-chevron-right"></i>
+        <span>Portfolio</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PORTFOLIO GALLERY
+       ============================================================ -->
+  <section class="section">
+    <div class="container">
+
+      <!-- Filter Bar -->
+      <div class="filter-bar fade-in">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="app">App</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+      </div>
+
+      <!-- Portfolio Grid -->
+      <div class="portfolio-grid">
+
+        <!-- Web Projects -->
+        <div class="portfolio-item fade-in" data-category="web">
+          <div class="portfolio-card">
+            <div class="portfolio-img">
+              <div class="portfolio-img-bg" style="background:linear-gradient(135deg,#0a2040,#1a6dff);">
+                <i class="fas fa-shopping-cart"></i>
+                <span>E-COMMERCE</span>
+              </div>
+              <div class="portfolio-overlay">
+                <div class="portfolio-overlay-title">ShopNow Platform</div>
+                <div class="portfolio-overlay-links">
+                  <a href="#" aria-label="Live Preview"><i class="fas fa-external-link-alt"></i></a>
+                  <a href="#" aria-label="Details"><i class="fas fa-info-circle"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <div class="portfolio-cat">Web Development</div>
+              <h3>ShopNow E-Commerce Platform</h3>
+              <p>Full-featured e-commerce with 10K+ products, payment gateway, and real-time analytics dashboard.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item fade-in fade-in-delay-1" data-category="app">
+          <div class="portfolio-card">
+            <div class="portfolio-img">
+              <div class="portfolio-img-bg" style="background:linear-gradient(135deg,#0a3060,#00c2d4);">
+                <i class="fas fa-utensils"></i>
+                <span>FOOD DELIVERY APP</span>
+              </div>
+              <div class="portfolio-overlay">
+                <div class="portfolio-overlay-title">QuickBite App</div>
+                <div class="portfolio-overlay-links">
+                  <a href="#" aria-label="Live Preview"><i class="fas fa-external-link-alt"></i></a>
+                  <a href="#" aria-label="Details"><i class="fas fa-info-circle"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <div class="portfolio-cat">App Development</div>
+              <h3>QuickBite Food Delivery App</h3>
+              <p>Cross-platform food ordering app with GPS tracking, live status, and multi-restaurant support.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item fade-in fade-in-delay-2" data-category="design">
+          <div class="portfolio-card">
+            <div class="portfolio-img">
+              <div class="portfolio-img-bg" style="background:linear-gradient(135deg,#1a1060,#6b3aff);">
+                <i class="fas fa-chart-line"></i>
+                <span>DASHBOARD UI</span>
+              </div>
+              <div class="portfolio-overlay">
+                <div class="portfolio-overlay-title">BizInsight Dashboard</div>
+                <div class="portfolio-overlay-links">
+                  <a href="#" aria-label="Live Preview"><i class="fas fa-external-link-alt"></i></a>
+                  <a href="#" aria-label="Details"><i class="fas fa-info-circle"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <div class="portfolio-cat">UI/UX Design</div>
+              <h3>BizInsight Analytics Dashboard</h3>
+              <p>Modern analytics dashboard with real-time data visualization, custom KPI widgets, and dark mode.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item fade-in fade-in-delay-1" data-category="web">
+          <div class="portfolio-card">
+            <div class="portfolio-img">
+              <div class="portfolio-img-bg" style="background:linear-gradient(135deg,#0a2030,#0d8040);">
+                <i class="fas fa-leaf"></i>
+                <span>ORGANIC STORE</span>
+              </div>
+              <div class="portfolio-overlay">
+                <div class="portfolio-overlay-title">GreenLeaf Store</div>
+                <div class="portfolio-overlay-links">
+                  <a href="#" aria-label="Live Preview"><i class="fas fa-external-link-alt"></i></a>
+                  <a href="#" aria-label="Details"><i class="fas fa-info-circle"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <div class="portfolio-cat">Web Development</div>
+              <h3>GreenLeaf Organic Store</h3>
+              <p>Eco-friendly online store with subscription boxes, blog, and integrated WhatsApp ordering.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item fade-in fade-in-delay-2" data-category="app">
+          <div class="portfolio-card">
+            <div class="portfolio-img">
+              <div class="portfolio-img-bg" style="background:linear-gradient(135deg,#1a0a40,#c20d8b);">
+                <i class="fas fa-dumbbell"></i>
+                <span>FITNESS APP</span>
+              </div>
+              <div class="portfolio-overlay">
+                <div class="portfolio-overlay-title">FitPro Gym App</div>
+                <div class="portfolio-overlay-links">
+                  <a href="#" aria-label="Live Preview"><i class="fas fa-external-link-alt"></i></a>
+                  <a href="#" aria-label="Details"><i class="fas fa-info-circle"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <div class="portfolio-cat">App Development</div>
+              <h3>FitPro Gym Management App</h3>
+              <p>Comprehensive gym management app with member tracking, workout plans, and trainer scheduling.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item fade-in fade-in-delay-3" data-category="design">
+          <div class="portfolio-card">
+            <div class="portfolio-img">
+              <div class="portfolio-img-bg" style="background:linear-gradient(135deg,#1a1a20,#c27020);">
+                <i class="fas fa-building"></i>
+                <span>CORPORATE IDENTITY</span>
+              </div>
+              <div class="portfolio-overlay">
+                <div class="portfolio-overlay-title">TechCorp Identity</div>
+                <div class="portfolio-overlay-links">
+                  <a href="#" aria-label="Live Preview"><i class="fas fa-external-link-alt"></i></a>
+                  <a href="#" aria-label="Details"><i class="fas fa-info-circle"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <div class="portfolio-cat">UI/UX Design</div>
+              <h3>TechCorp Brand Identity</h3>
+              <p>Complete corporate branding including logo design, color system, typography, and brand guidelines.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item fade-in fade-in-delay-1" data-category="web">
+          <div class="portfolio-card">
+            <div class="portfolio-img">
+              <div class="portfolio-img-bg" style="background:linear-gradient(135deg,#0a1a40,#1a6dff);">
+                <i class="fas fa-graduation-cap"></i>
+                <span>EDTECH PLATFORM</span>
+              </div>
+              <div class="portfolio-overlay">
+                <div class="portfolio-overlay-title">LearnSpark LMS</div>
+                <div class="portfolio-overlay-links">
+                  <a href="#" aria-label="Live Preview"><i class="fas fa-external-link-alt"></i></a>
+                  <a href="#" aria-label="Details"><i class="fas fa-info-circle"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <div class="portfolio-cat">Web Development</div>
+              <h3>LearnSpark LMS Platform</h3>
+              <p>Full-featured learning management system with video courses, quizzes, certificates, and payment.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item fade-in fade-in-delay-2" data-category="app">
+          <div class="portfolio-card">
+            <div class="portfolio-img">
+              <div class="portfolio-img-bg" style="background:linear-gradient(135deg,#0a2020,#0a9060);">
+                <i class="fas fa-hand-holding-heart"></i>
+                <span>HEALTHCARE APP</span>
+              </div>
+              <div class="portfolio-overlay">
+                <div class="portfolio-overlay-title">CarePoint App</div>
+                <div class="portfolio-overlay-links">
+                  <a href="#" aria-label="Live Preview"><i class="fas fa-external-link-alt"></i></a>
+                  <a href="#" aria-label="Details"><i class="fas fa-info-circle"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <div class="portfolio-cat">App Development</div>
+              <h3>CarePoint Healthcare App</h3>
+              <p>Doctor appointment booking app with teleconsultation, prescription management, and health records.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item fade-in fade-in-delay-3" data-category="design">
+          <div class="portfolio-card">
+            <div class="portfolio-img">
+              <div class="portfolio-img-bg" style="background:linear-gradient(135deg,#1a0a30,#8b1a8b);">
+                <i class="fas fa-store"></i>
+                <span>RETAIL REDESIGN</span>
+              </div>
+              <div class="portfolio-overlay">
+                <div class="portfolio-overlay-title">StyleHub Redesign</div>
+                <div class="portfolio-overlay-links">
+                  <a href="#" aria-label="Live Preview"><i class="fas fa-external-link-alt"></i></a>
+                  <a href="#" aria-label="Details"><i class="fas fa-info-circle"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <div class="portfolio-cat">UI/UX Design</div>
+              <h3>StyleHub Fashion Redesign</h3>
+              <p>Complete UX overhaul for a fashion retailer resulting in 65% increase in conversion rate.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="cta-banner fade-in">
+        <h2>Have a <span style="color:#ffe082;">Project</span> in Mind?</h2>
+        <p>Let's turn your idea into a reality. Contact us for a free consultation and project estimate.</p>
+        <div class="cta-actions">
+          <a href="contact.html" class="btn btn-white"><i class="fas fa-paper-plane"></i> Start Project</a>
+          <a href="https://wa.me/91XXXXXXXXXX?text=Hello%2C%20I%20am%20interested%20in%20your%20web%20and%20app%20development%20services.%20Please%20share%20details." class="btn btn-outline" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">App<span>Stello</span> Labs</a>
+          <p>We build powerful digital solutions that help businesses grow. From websites to mobile apps, we're your trusted technology partner.</p>
+          <div class="footer-social">
+            <a href="#" class="social-btn"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-btn"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Web Development</a></li>
+            <li><a href="services.html">App Development</a></li>
+            <li><a href="services.html">UI/UX Design</a></li>
+            <li><a href="services.html">SEO Marketing</a></li>
+            <li><a href="services.html">E-Commerce</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i><span>Dhanbad, Jharkhand, India</span></div>
+          <div class="footer-contact-item"><i class="fas fa-envelope"></i><span>hello@appstello.com</span></div>
+          <div class="footer-contact-item"><i class="fas fa-phone"></i><span>+91 98765 43210</span></div>
+          <div class="footer-contact-item"><i class="fas fa-globe"></i><span>www.appstello.com</span></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 <a href="index.html">AppStello Labs</a>. All Rights Reserved.</p>
+        <p>Designed &amp; Developed with ❤️ by AppStello Labs</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script>if (typeof jQuery === 'undefined') { document.write('<script src="https://code.jquery.com/jquery-3.7.1.min.js"><\/script>'); }</script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
