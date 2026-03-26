@@ -87,7 +87,7 @@ Edit CSS variables in `assets/css/style.css` (top of file):
 :root {
   --primary: #1a6dff;      /* Main blue */
   --accent: #00d4ff;       /* Cyan accent */
-  --secondary: #0a1628;    /* Dark navy */
+  --secondary: #0066ff;    /* Dark navy */
 }
 ```
 
