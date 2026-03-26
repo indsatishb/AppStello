@@ -96,7 +96,7 @@ Search and replace throughout HTML files:
 - `AppStello Labs` → Your company name
 - `hello@appstello.com` → Your email
 - `+91 98765 43210` → Your phone
-- `Dhanbad, Jharkhand` → Your address
+- `Barkurba , Dullipatti , Jaynagar` → Your address
 - `91XXXXXXXXXX` in WhatsApp links → Your WhatsApp number (digits only)
 
 ### Google Maps
@@ -137,5 +137,5 @@ This code is proprietary. Not for redistribution without permission.
 ## 💬 Support
 
 **Email:** hello@appstello.com  
-**WhatsApp:** +91 98765 43210  
+**WhatsApp:** +91 9199899971 
 **Website:** www.appstello.com
