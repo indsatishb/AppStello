@@ -95,7 +95,7 @@ Edit CSS variables in `assets/css/style.css` (top of file):
 Search and replace throughout HTML files:
 - `AppStello Labs` → Your company name
 - `hello@appstello.com` → Your email
-- `+91 98765 43210` → Your phone
+- `+91 91998 99971` → Your phone
 - `Barkurba , Dullipatti , Jaynagar` → Your address
 - `91XXXXXXXXXX` in WhatsApp links → Your WhatsApp number (digits only)
 
